@@ -1,0 +1,65 @@
+.top-left{
+    position: fixed;
+    top: 0;
+    left:25%;
+    padding: 15px;
+    width: 100%;
+}
+.top-left ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-left li{
+    font-family: Segoe UI;
+    font-weight: 600;
+    display: inline;
+    margin-left:25px;
+
+}
+
+.top-left a{
+    text-decoration: none;
+    color: black;
+}
+
+ul li:first-child{
+    border-radius: 29px;
+    border: 2px solid #95a183;
+    padding: 10px;
+    width: 10px;
+}
+
+.search:not(h1){
+    background-image: url("/img/kevin-snow-Pvyue6LixGY-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450PX;
+    opacity: 0.5;
+}
+.search h1{
+    color: rgb(255, 255, 255);
+}
+.fires{
+    display: flex;
+    justify-content: center;
+
+}
+.form{
+    border: 2px solid #414443;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: #414443;
+    margin-top: 10%;
+}
+.form input{
+    
+    background-color: black;
+    border-radius: 12px;
+    height: 40px;
+    color: WHITE;
+    width: 350px;
+    align-items: center;
+}
